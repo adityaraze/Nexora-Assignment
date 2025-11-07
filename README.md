@@ -33,7 +33,7 @@ This is the **main product listing page** where all available mock products are 
 Each product card displays the name, price, and an **“Add to Cart”** button.  
 Users can add any item to their cart with a single click.
 
-![Products Page](screenshots/products.png)
+![Products Page](screenshots/Products.png)
 
 ---
 
@@ -41,7 +41,7 @@ Users can add any item to their cart with a single click.
 When a user clicks **“Add to Cart”**, a confirmation popup appears showing that the item has been successfully added to the cart.  
 This calls the backend `POST /api/cart` API which stores the product and quantity for the current mock user.
 
-![Add to Cart Popup](screenshots/addtocart.png)
+![Add to Cart Popup](screenshots/AddtoCart.png)
 
 ---
 
@@ -51,7 +51,7 @@ It displays each item’s name, price, quantity, and a **“Remove”** button.
 The total price at the bottom is dynamically calculated using the `/api/cart` API.  
 Users can remove items and instantly see the updated total.
 
-![Cart Page](screenshots/cart.png)
+![Cart Page](screenshots/Cart.png)
 
 ---
 
@@ -65,7 +65,7 @@ When the form is submitted, a **mock receipt** is generated showing:
 
 This flow uses the `POST /api/checkout` endpoint and clears the cart after checkout.
 
-![Checkout Page](screenshots/checkout.png)
+![Checkout Page](screenshots/Checkout.png)
 
 
 ## 📂 Folder Structure
